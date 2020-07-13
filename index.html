@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Landerz &mdash; Website by Colorlib</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+<head>
+  <title>Landerz &mdash; Website by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-    <link rel="stylesheet" href="css/style.css">
-    
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  
-  <div class="site-wrap"  id="home-section">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/AA_Global.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div class="site-wrap" id="home-section">
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -38,90 +47,144 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-   
-    <div class="container d-none d-lg-block">
+
+    <!-- <div class="container d-none d-lg-block">
       <div class="row">
         <div class="col-12 text-center mb-4 mt-5">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">Landerz<span class="text-primary">.</span> </a></h1>
-          </div>
+          <h1 class="mb-0 site-logo">
+            <a href="index.html" class="text-black h2 mb-0">Landerz<span class="text-primary">.</span> </a>
+            <img src="images/Logo.png" alt="Girl in a acket" width="200" height="130">
+          </h1>
+        </div>
       </div>
-    </div>
+    </div> -->
     <header class="site-navbar py-md-4 js-sticky-header site-navbar-target" role="banner">
 
       <div class="container">
         <div class="row align-items-center">
-          
-          <div class="col-6 col-md-6 col-xl-2  d-block d-lg-none">
-            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">Landerz<span class="text-primary">.</span> </a></h1>
-          </div>
 
-          <div class="col-12 col-md-10 main-menu">
+
+          <div class="col-4 col-md-4 desktop-logo d-lg-block">
+            <img src="images/logo.svg" class="mobile-logo" alt="main logo">
+          </div>
+          <div class="col-lg-8 main-menu">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#features-section" class="nav-link">Features</a></li>
-                <li><a href="#about-section" class="nav-link">About Us</a></li>
-                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                <li>
+                  <a href="#home-section" class="nav-link">Home</a>
+                </li>
+                <li>
+                  <a href="#about-section" class="nav-link">About Us</a>
+                </li>
+                <li>
+                  <a href="#Products-section" class="nav-link">products</a>
+                </li>
+                <li>
+                  <a href="#contact-section" class="nav-link">Contact</a>
+                </li>
+                <!-- <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                    <li><a href="#blog-section" class="nav-link">Blog</a></li> -->
+
               </ul>
             </nav>
           </div>
 
-
-          <div class="col-6 col-md-6 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
-
+          <div class=" col-md-6 d-inline-block d-lg-none ml-md-0">
+            <a href="#" class="site-menu-toggle js-menu-toggle text-black float-right">
+              <span class="icon-menu h3"></span>
+            </a>
+          </div>
         </div>
       </div>
-      
+
     </header>
-    
+
 
     <div class="site-blocks-cover">
       <div class="container">
         <div class="row align-items-center justify-content-center">
 
           <div class="col-md-12" style="position: relative;" data-aos="fade-up">
-            
-            <img src="images/landing_1.png" alt="Image" class="img-fluid img-absolute">
+
+            <img src="images/mainpage.svg" alt="Image" class="img-fluid img-absolute">
 
             <div class="row mb-4">
               <div class="col-lg-4 mr-auto">
                 <h1>Grow Your Business Faster</h1>
-                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+                <div class="red-underline"></div>
+                <br>
+                <p class="mb-5">Welcome to AAglobal. we are food importers, distributors & brand-builders, of authentic food and drink brands
+                  from around the world. Based in france, we offer a seamless service to EU retailers, delivering nationwide
+                  and to a fast-growing distribution network in uk and Europe. We have a growing passion and knowledge of
+                  Europe grocery and speciality food sectors.</p>
                 <div>
-                  <a href="#" class="btn btn-primary mr-2 mb-2">Get Started</a>
+                  <a href="#" class="btn btn-primary mr-2 mb-2">Get to know us</a>
                 </div>
               </div>
-              
-              
+
+
             </div>
 
           </div>
         </div>
       </div>
-    </div>  
+    </div>
 
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <div>
+            <h2 class="section-title mb-3">About Us</h2>
+            <div class=" red-underline" style="margin-left:452px; width: 200px"></div>
+            </div>            
+            <br>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <img src="images/about_1.jpg" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4">What we're all about </h2>
+            <p class="mb-4">Welcome to AAglobal. we are food importers, distributors & brand-builders, of authentic food and drink brands
+              from around the world. Based in france, we offer a seamless service to EU retailers, delivering nationwide
+              and to a fast-growing distribution network in uk and Europe. We have a growing passion and knowledge of Europe
+              grocery and speciality food sectors</p>
+            <p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
     <div class="site-section bg-light" id="features-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Features</h2>
+            <h2 class="section-title mb-3">Brands</h2>
+            <div class=" red-underline" style="margin-left:452px; width: 200px"></div>
           </div>
         </div>
         <div class="row align-items-stretch">
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-            
+
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+                <span class="icon-wrap">
+                  <span class="text-primary icon-autorenew"></span>
+                </span>
               </div>
               <div>
                 <h3>Business Consulting</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
               </div>
             </div>
 
@@ -130,24 +193,32 @@
 
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
+                <span class="icon-wrap">
+                  <span class="text-primary icon-store_mall_directory"></span>
+                </span>
               </div>
               <div>
                 <h3>Market Analysis</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" >
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-shopping_basket"></span></span>
+                <span class="icon-wrap">
+                  <span class="text-primary icon-shopping_basket"></span>
+                </span>
               </div>
               <div>
                 <h3>User Monitoring</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
               </div>
             </div>
           </div>
@@ -156,12 +227,16 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-settings_backup_restore"></span></span>
+                <span class="icon-wrap">
+                  <span class="text-primary icon-settings_backup_restore"></span>
+                </span>
               </div>
               <div>
                 <h3>Insurance Consulting</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
               </div>
             </div>
           </div>
@@ -169,27 +244,35 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-sentiment_satisfied"></span></span>
+                <span class="icon-wrap">
+                  <span class="text-primary icon-sentiment_satisfied"></span>
+                </span>
               </div>
               <div>
                 <h3>Customer Satistified</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
               </div>
             </div>
 
-            
+
           </div>
-          
+
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
             <div class="unit-4 d-block">
               <div class="unit-4-icon mb-3">
-                <span class="icon-wrap"><span class="text-primary icon-power"></span></span>
+                <span class="icon-wrap">
+                  <span class="text-primary icon-power"></span>
+                </span>
               </div>
               <div>
                 <h3>Plug &amp; Play</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                <p><a href="#">Learn More</a></p>
+                <p>
+                  <a href="#">Learn More</a>
+                </p>
               </div>
             </div>
           </div>
@@ -197,8 +280,39 @@
         </div>
       </div>
     </div>
-    
-    <div class="feature-big">
+
+    <div class="site-section bg-light" id="Products-section">
+      <div class="container card shadow p-3 mb-5 bg-white rounded" style="height: 560px;">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="section-title mb-3">Our Products</h2>
+            <div class="red-underline" style="margin-left:410px; width: 295px"></div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-10 text-center">
+            <p class="mb-4">We strive to bring you an unparalleled selection of brands. This year we’ve continued to introduce new and innovative
+              products, as well as implemented new and easier ways for UK an european retailers to access these wonderful
+              products from around the world</p>
+            <p class="mb-4"> We continue to offer amazing ranges from across 3 continents, including continued focus on seasonal ranges. We
+              are confident that there is a brand in our portfolio for every type of stores and retailers </p>
+          </div>
+          <div class="col-lg-1">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- <div class="feature-big">
       <div class="container">
         <div class="row mb-5 site-section border-bottom">
           <div class="col-lg-7">
@@ -257,26 +371,7 @@
     </div>
 
 
-    <div class="site-section bg-light" id="about-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">About Us</h2>
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-lg-6">
-            <img src="images/about_1.jpg" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">
-          </div>
-          <div class="col-lg-5 ml-auto pl-lg-5">
-            <h2 class="text-black mb-4">Create interactive prototypes</h2>
-            <p class="mb-4">Eos cumque optio dolores excepturi rerum temporibus magni recusandae eveniet, totam omnis consectetur maxime quibusdam expedita dolorem dolor nobis dicta labore quaerat esse magnam unde, aperiam delectus! At maiores, itaque.</p>
-            <p><a href="#" class="btn btn-primary">Learn More</a></p>
-          </div>
-        </div>
-        
-      </div>
-    </div>
+    
 
 
     <div class="site-section testimonial-wrap" id="testimonials-section">
@@ -390,23 +485,21 @@
           
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="site-section bg-light" id="contact-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
             <h2 class="section-title mb-3">Get In Touch</h2>
+            <div class="red-underline" style="margin-left:415px; width: 280px"></div>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-7 mb-5">
-
-            
-
+          <div class="col-lg-6 mb-5 shadow p-3 mb-5 bg-white rounded contact-info">
             <form action="#" class="p-5 bg-white">
-              
-              <h2 class="h4 text-black mb-5">Contact Form</h2> 
+
+              <h2 class="h4 text-black mb-5 contact-us">Contact us</h2>
 
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
@@ -420,24 +513,24 @@
               </div>
 
               <div class="row form-group">
-                
+
                 <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label> 
+                  <label class="text-black" for="email">Email</label>
                   <input type="email" id="email" class="form-control rounded-0">
                 </div>
               </div>
 
               <div class="row form-group">
-                
+
                 <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label> 
+                  <label class="text-black" for="subject">Subject</label>
                   <input type="subject" id="subject" class="form-control rounded-0">
                 </div>
               </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
-                  <label class="text-black" for="message">Message</label> 
+                  <label class="text-black" for="message">Message</label>
                   <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Write your notes or questions here..."></textarea>
                 </div>
               </div>
@@ -448,12 +541,36 @@
                 </div>
               </div>
 
-  
+
             </form>
           </div>
-        
+          <div class="col-lg-5 mb-5 shadow p-3 mb-5 bg-white rounded">
+            <div class=" card location-info">
+              <div class="row contact-title">
+                Our address Info
+              </div>
+              <div class="row contact-info">
+                5 Avenue Carnot, 91300 Massy France
+              </div>
+              <br>
+              <div class="row contact-title">
+                Our Contact Info
+              </div>
+              <div class="row contact-info">
+                ajit@aaglobal.fr
+                <br> +33783749725      +33977195200
+              </div>
+              <br><br>
+              <!-- <div class="card" id="mapid"></div> -->
+              <div style="width: 300px">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.773216489782!2d2.2661408156698197!3d48.72892487927505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e677879ed03e81%3A0xdf0f632afcbd819b!2s5%20Avenue%20Carnot%2C%2091300%20Massy!5e0!3m2!1sen!2sfr!4v1594655260971!5m2!1sen!2sfr" width="400" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+            </div>
+
+          </div>
+
         </div>
-        
+
       </div>
     </div>
 
@@ -462,9 +579,15 @@
         <div class="row mb-5">
           <div class="col-12">
             <p class="mb-0">
-              <a href="#" class="p-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="p-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="p-3">
+                <span class="icon-facebook"></span>
+              </a>
+              <a href="#" class="p-3">
+                <span class="icon-twitter"></span>
+              </a>
+              <a href="#" class="p-3">
+                <span class="icon-instagram"></span>
+              </a>
             </p>
           </div>
         </div>
@@ -472,7 +595,8 @@
           <div class="col-md-12">
             <p class="mb-0">
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+              Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved with AA Global
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
@@ -480,10 +604,11 @@
       </div>
     </div>
 
-  
-     
-    
-  </div> <!-- .site-wrap -->
+
+
+
+  </div>
+  <!-- .site-wrap -->
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -499,8 +624,22 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
 
-  
+
   <script src="js/main.js"></script>
-    
-  </body>
+
+  <script>
+    var mymap = L.map('mapid').setView([48.729052, 2.268136], 12);
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: '',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'sk.eyJ1IjoiaGlkYWRlc2lnbmVycyIsImEiOiJja2Nrb2Nsb3gxdWJ0MnVwMGx5bjh1cjluIn0.bnO1QzFqwfIxdPi5695FwQ'
+}).addTo(mymap);
+
+var marker = L.marker([48.729052, 2.268136]).addTo(mymap);
+  </script>
+</body>
+
 </html>

@@ -1,0 +1,48 @@
+.mobile-logo{
+    height: 46px;
+    width: 130px;
+    padding: 4px;
+}
+
+.location-info{
+    padding: 15px;
+    background-color:#1D5BF3;
+    color: white;
+    height: 800px;
+}
+
+.contact-info{
+    margin-right: 8px;
+}
+
+.contact-us{
+    font-weight: 600;
+}
+
+#mapid{
+    height: 300px;
+    width: 400px;
+}
+
+.contact-title{
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+
+.contact-info{
+    padding-left: 20px;
+    font-weight: normal;
+
+}
+
+.red-underline{
+    height: 4px;
+    width: 300px;
+    background-color: red;
+
+}
+
+a{
+    color: #1D5BF3;
+}
