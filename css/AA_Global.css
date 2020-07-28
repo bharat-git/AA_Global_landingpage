@@ -17,7 +17,9 @@
 .contact-us{
     font-weight: 600;
 }
-
+.map-container iframe , .map-container{
+ width: 300px;
+}
 #mapid{
     height: 300px;
     width: 400px;
@@ -54,4 +56,14 @@
 
 a{
     color: #1D5BF3;
+}
+@media (max-width: 991.98px) { 
+
+.map-container iframe, .map-container {
+ width: 100%;
+}
+
+.container.card.shadow.p-3.mb-5.bg-white.rounded {
+    height: auto !important;
+}
 }
