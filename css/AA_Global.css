@@ -20,7 +20,9 @@
 .contact-us{
     font-weight: 600;
 }
-
+.map-container{
+ width: 300px;
+}
 #mapid{
     height: 300px;
     width: 400px;
@@ -48,6 +50,18 @@
 
 }
 
+@media (max-width: 991.98px){
+    .customers-bg{
+        height: 560px;
+        background-image: none !important;
+    }
+}
+
+.customers-bg{
+    height: 560px;
+     background-image: url(/images/customers.svg);
+}
+
 .header-button{
     font-size: 16px;
     font-weight: 500;
@@ -70,4 +84,14 @@
 
 a{
     color: #1D5BF3;
+}
+@media (max-width: 991.98px) { 
+
+.map-container iframe, .map-container {
+ width: 100%;
+}
+
+.container.card.shadow.p-3.mb-5.bg-white.rounded {
+    height: auto !important;
+}
 }
