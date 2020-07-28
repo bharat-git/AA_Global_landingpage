@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5,
       color: #1D5BF3;
       display: inline-block;
       padding: 5px 20px; 
-      border-bottom: solid red 3px}
+      border-bottom: solid #ec1c24 3px}
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }

@@ -5,9 +5,12 @@
 
 .location-info{
     padding: 15px;
-    background-color:#1D5BF3;
     color: white;
     height: 800px;
+}
+
+.border-card{
+    background-color: #1D5BF3!important;
 }
 
 .contact-info{
@@ -26,30 +29,43 @@
 .contact-title{
     padding-left: 10px;
     font-weight: bold;
+    color: #ec1c24;
 
 }
 
 .contact-info{
     padding-left: 20px;
-    font-weight: 700;
-
+    font-size: 16px;
+    font-weight: 500;
+    color:#1D5BF3;
+    
 }
 
 .red-underline{
     height: 4px;
     width: 315px;
-    background-color: red;
+    background-color: #ec1c24;
 
 }
 
 .header-button{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 .main-image{
     padding-right: 20px;
     height: 130%;
+}
+
+.img-fixed{
+    position: absolute;
+  bottom: 0;
+  right: 14%;
+  top: 63%;
+  -webkit-transform: translateY(-50%) translateX(30%);
+  -ms-transform: translateY(-50%) translateX(30%);
+  transform: translateY(-50%) translateX(30%);
 }
 
 a{
