@@ -8,7 +8,7 @@ body {
 ::-moz-selection {
   background: #000;
   color: #fff; }
-
+.active
 ::selection {
   background: #000;
   color: #fff; }
@@ -287,7 +287,8 @@ h1, h2, h3, h4, h5,
     .site-navbar .site-navigation .site-menu .active {
       color: #1D5BF3;
       display: inline-block;
-      padding: 5px 20px; }
+      padding: 5px 20px; 
+      border-bottom: solid red 3px}
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -611,8 +612,8 @@ h1, h2, h3, h4, h5,
 .img-absolute {
   position: absolute;
   bottom: 0;
-  right: 8%;
-  top: 50%;
+  right: 14%;
+  top: 63%;
   -webkit-transform: translateY(-50%) translateX(30%);
   -ms-transform: translateY(-50%) translateX(30%);
   transform: translateY(-50%) translateX(30%); }

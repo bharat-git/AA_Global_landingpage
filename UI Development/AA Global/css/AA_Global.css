@@ -43,6 +43,14 @@
 
 }
 
+
+.slide{
+    background: white;
+    height: 480px;
+    box-shadow: 3px 3px 6px #000000;
+}
+
 a{
     color: #1D5BF3;
 }
+
