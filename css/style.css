@@ -635,7 +635,7 @@ h1, h2, h3, h4, h5,
       top: auto;
       -webkit-transform: translateY(0%) translateX(0%);
       -ms-transform: translateY(0%) translateX(0%);
-      transform: translateY(0%) translateX(0%);
+      transform: translateY(0%) translateX(17%);
       margin-bottom: 30px; } }
 
 .site-block-subscribe .btn {
